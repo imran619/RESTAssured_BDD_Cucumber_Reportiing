@@ -1,0 +1,200 @@
+[
+  {
+    "source": "^I have the API url to create a user$",
+    "steps": [
+      {
+        "name": "I have the API url to create a user",
+        "aggregatedDurations": {
+          "average": 0.061744295,
+          "median": 0.061744295
+        },
+        "durations": [
+          {
+            "duration": 0.061744295,
+            "location": "POSTRequestFeature.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User details are updated$",
+    "steps": [
+      {
+        "name": "User details are updated",
+        "aggregatedDurations": {
+          "average": 6.144560626,
+          "median": 6.144560626
+        },
+        "durations": [
+          {
+            "duration": 6.144560626,
+            "location": "PUTRequestFeature.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I call the API url$",
+    "steps": [
+      {
+        "name": "I call the API url",
+        "aggregatedDurations": {
+          "average": 0.000639999,
+          "median": 0.000639999
+        },
+        "durations": [
+          {
+            "duration": 0.000639999,
+            "location": "GETRequestFeature.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I have the API url to delete a user\u0027s details$",
+    "steps": [
+      {
+        "name": "I have the API url to delete a user\u0027s details",
+        "aggregatedDurations": {
+          "average": 0.883643912,
+          "median": 0.883643912
+        },
+        "durations": [
+          {
+            "duration": 0.883643912,
+            "location": "DELETERequestFeature.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User details are created$",
+    "steps": [
+      {
+        "name": "User details are created",
+        "aggregatedDurations": {
+          "average": 5.950910329,
+          "median": 5.950910329
+        },
+        "durations": [
+          {
+            "duration": 5.950910329,
+            "location": "POSTRequestFeature.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I call the API to delete the user\u0027s details$",
+    "steps": [
+      {
+        "name": "I call the API to delete the user\u0027s details",
+        "aggregatedDurations": {
+          "average": 0.096553479,
+          "median": 0.096553479
+        },
+        "durations": [
+          {
+            "duration": 0.096553479,
+            "location": "DELETERequestFeature.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I call the API with post parameters for user creation$",
+    "steps": [
+      {
+        "name": "I call the API with post parameters for user creation",
+        "aggregatedDurations": {
+          "average": 0.04953937,
+          "median": 0.04953937
+        },
+        "durations": [
+          {
+            "duration": 0.04953937,
+            "location": "POSTRequestFeature.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User details are deleted$",
+    "steps": [
+      {
+        "name": "User details are deleted",
+        "aggregatedDurations": {
+          "average": 7.349649737,
+          "median": 7.349649737
+        },
+        "durations": [
+          {
+            "duration": 7.349649737,
+            "location": "DELETERequestFeature.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I have the API url to get users details$",
+    "steps": [
+      {
+        "name": "I have the API url to get users details",
+        "aggregatedDurations": {
+          "average": 0.011606082,
+          "median": 0.011606082
+        },
+        "durations": [
+          {
+            "duration": 0.011606082,
+            "location": "GETRequestFeature.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I have the API url to update a user\u0027s details$",
+    "steps": [
+      {
+        "name": "I have the API url to update a user\u0027s details",
+        "aggregatedDurations": {
+          "average": 0.04715608,
+          "median": 0.04715608
+        },
+        "durations": [
+          {
+            "duration": 0.04715608,
+            "location": "PUTRequestFeature.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I call the API with update parameters for updating the user details$",
+    "steps": [
+      {
+        "name": "I call the API with update parameters for updating the user details",
+        "aggregatedDurations": {
+          "average": 0.062062973,
+          "median": 0.062062973
+        },
+        "durations": [
+          {
+            "duration": 0.062062973,
+            "location": "PUTRequestFeature.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

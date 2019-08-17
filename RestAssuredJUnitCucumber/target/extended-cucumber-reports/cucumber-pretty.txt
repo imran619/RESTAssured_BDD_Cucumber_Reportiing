@@ -1,0 +1,33 @@
+Feature: DELETE User details feature
+
+  Scenario: Delete user details                         [90m# DELETERequestFeature.feature:3[0m
+    [32mGiven [0m[32mI have the API url to delete a user's details[0m [90m# DELETERequestSteps.i_have_the_API_url_to_delete_a_user_s_details()[0m
+    [32mWhen [0m[32mI call the API to delete the user's details[0m    [90m# DELETERequestSteps.i_call_the_API_to_delete_the_user_s_details()[0m
+    [32mThen [0m[32mUser details are deleted[0m                       [90m# DELETERequestSteps.user_details_are_deleted()[0m
+Feature: GET User details feature
+
+  Scenario: Get the user details                  [90m# GETRequestFeature.feature:3[0m
+    [32mGiven [0m[32mI have the API url to get users details[0m [90m# GETRequestSteps.i_have_the_API_url_to_get_users_details()[0m
+    [32mWhen [0m[32mI call the API url[0m                       [90m# GETRequestSteps.i_call_the_API_url()[0m
+    [31mThen [0m[31mI get the users details[0m                  [90m# GETRequestSteps.i_get_the_users_details()[0m
+      [31mjava.lang.AssertionError: Name does not match expected [Eve2] but found [Eve]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at steps.GETRequestSteps.i_get_the_users_details(GETRequestSteps.java:67)
+      	at ✽.Then I get the users details(GETRequestFeature.feature:6)
+      [0m
+Feature: GET User details feature
+
+  Scenario: Create user details                                [90m# POSTRequestFeature.feature:3[0m
+    [32mGiven [0m[32mI have the API url to create a user[0m                  [90m# POSTRequestSteps.iHaveTheAPIUrlToCreateUser()[0m
+    [32mWhen [0m[32mI call the API with post parameters for user creation[0m [90m# POSTRequestSteps.iCallTheAPIWithPostParametersForUserCreation()[0m
+    [32mThen [0m[32mUser details are created[0m                              [90m# POSTRequestSteps.userDetailsAreCreated()[0m
+Feature: UPDATE User details feature
+
+  Scenario: Update user details                                              [90m# PUTRequestFeature.feature:3[0m
+    [32mGiven [0m[32mI have the API url to update a user's details[0m                      [90m# UPDATERequestSteps.i_have_the_API_url_to_update_a_user_s_details()[0m
+    [32mWhen [0m[32mI call the API with update parameters for updating the user details[0m [90m# UPDATERequestSteps.i_call_the_API_with_update_parameters_for_updating_the_user_details()[0m
+    [32mThen [0m[32mUser details are updated[0m                                            [90m# UPDATERequestSteps.user_details_are_updated()[0m

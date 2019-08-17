@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="26.968206">
+<testcase classname="DELETE User details feature" name="Delete user details" time="8.329847">
+<system-out><![CDATA[Given I have the API url to delete a user's details.........................passed
+When I call the API to delete the user's details............................passed
+Then User details are deleted...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GET User details feature" name="Get the user details" time="6.322385">
+<failure message="java.lang.AssertionError: Name does not match expected [Eve2] but found [Eve]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:135)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:116)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:190)&#13;&#10;&#9;at steps.GETRequestSteps.i_get_the_users_details(GETRequestSteps.java:67)&#13;&#10;&#9;at ✽.Then I get the users details(GETRequestFeature.feature:6)&#13;&#10;"><![CDATA[Given I have the API url to get users details...............................passed
+When I call the API url.....................................................passed
+Then I get the users details................................................failed
+
+StackTrace:
+java.lang.AssertionError: Name does not match expected [Eve2] but found [Eve]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at steps.GETRequestSteps.i_get_the_users_details(GETRequestSteps.java:67)
+	at ✽.Then I get the users details(GETRequestFeature.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="GET User details feature" name="Create user details" time="6.062194">
+<system-out><![CDATA[Given I have the API url to create a user...................................passed
+When I call the API with post parameters for user creation..................passed
+Then User details are created...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="UPDATE User details feature" name="Update user details" time="6.25378">
+<system-out><![CDATA[Given I have the API url to update a user's details.........................passed
+When I call the API with update parameters for updating the user details....passed
+Then User details are updated...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
